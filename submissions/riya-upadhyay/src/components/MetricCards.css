@@ -1,0 +1,33 @@
+.metric-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .metric-card {
+    background-color:#FF9933;
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .metric-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .metric-label {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #003580;
+  }
+  
